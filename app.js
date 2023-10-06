@@ -34,7 +34,7 @@ app.use((err, req, res, next) => {
 
 mongoose
   .connect(
-    "mongodb+srv://test:yJMyEQ9XOS7Xck6l@cluster0.1aacova.mongodb.net/video"
+    "mongodb+srv:/your-own"
   )
   .then((_) => {
     app.listen("8000", () => {
